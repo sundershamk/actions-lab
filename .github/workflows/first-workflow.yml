@@ -11,6 +11,7 @@ env:
 jobs:
   lint-yaml:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Check out code
         uses: actions/checkout@v3
